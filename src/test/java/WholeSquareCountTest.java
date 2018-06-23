@@ -5,6 +5,7 @@ import org.junit.runners.JUnit4;
 
 @RunWith(JUnit4.class)
 public class WholeSquareCountTest {
+
     @Test
     public void wholeSquareCount() {
         Assert.assertEquals(WholeSquareCount.getWholeSquareCount(4, 17), 3);
